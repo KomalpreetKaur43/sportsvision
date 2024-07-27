@@ -10,7 +10,6 @@ def show():
         align-items: center;
     }
     .aboutus-text, .aboutus-title {
-        color: white;
         font-size: 16px;
         align-items: center;
     }
@@ -18,7 +17,6 @@ def show():
         font-size: 40px; /* Increased font size */
         font-weight: bold;
         align-items: center;
-        color:white;
     }
     </style>
     """,
