@@ -4,12 +4,10 @@ def show():
     st.markdown("""
     <style>
         .privacy-policy-container {
-            background-color: black;
             padding: 20px;
             border-radius: 10px;
         }
         .privacy-policy-text, .privacy-policy-title {
-            color: white;
             font-size: 16px;
         }
         .privacy-policy-title {
@@ -18,7 +16,6 @@ def show():
         }
         h2 {
             text-align: center;
-            color: white;
             font-size: 40px;
         }
     </style>
