@@ -52,6 +52,10 @@ def show():
         display: block;
         margin-top: 5px;
     }
+    .video-container {
+        text-align: center;
+        margin: 20px 0;
+    }
     </style>
     """, unsafe_allow_html=True)
 
@@ -62,7 +66,7 @@ def show():
     # Centered Video with autoplay, loop, and muted
     st.markdown("""
     <div class="video-container">
-        <video width="100%" height="auto" autoplay loop muted>
+        <video width="80%" height="auto" autoplay loop muted>
             <source src="output.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
