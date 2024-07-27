@@ -9,21 +9,18 @@ def show():
     }
     .content {
         font-size: 60px; /* Increase the font size here */
-        font-weight: bold;
-        color: white; /* Ensure text color is white */
+        font-weight: bold; /* Ensure text color is white */
         text-align: center;
         margin: 30px 0;
         padding: 20px; /* Add padding to make sure it is visible */
     }
     .action-heading {
         font-size: 40px; /* Increase the font size here */
-        font-weight: bold;
-        color: white; /* Ensure text color is white */
+        font-weight: bold; /* Ensure text color is white */
         text-align: center;
         margin: 20px 0;
     }
-    .caption {
-        color: white; /* Ensure caption text color is white */
+    .caption { /* Ensure caption text color is white */
         font-size: 14px; /* Optional: Adjust caption font size */
         text-align: center;
         display: block;
