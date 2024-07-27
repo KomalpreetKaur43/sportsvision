@@ -23,6 +23,11 @@ def show():
         .experience-link:hover {
             text-decoration: underline;
         }
+        .experience-image-caption {
+            color: white;
+            font-size: 24px;  /* Adjust the font size here */
+            margin-top: 10px;
+        }
         </style>
         """,
         unsafe_allow_html=True
@@ -38,8 +43,8 @@ def show():
         unsafe_allow_html=True
     )
 
-    # Display the image with a specified width
-    st.image("roboflowqr.jpeg", caption="Experience Our Model", width=200)
+    # Display the image with a specified width and caption
+    st.image("roboflowqr.jpeg", caption="<div class='experience-image-caption'>Experience Our Model</div>", width=200, use_column_width='auto')
 
     st.markdown('</div>', unsafe_allow_html=True)
 
