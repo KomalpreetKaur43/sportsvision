@@ -34,7 +34,7 @@ def show():
     
     # Link to the website
     st.markdown(
-        '<a href="https://example.com" class="experience-link" target="_blank">Click here to try out our model</a>',
+        '<a href="https://universe.roboflow.com/sports-video-analysis/sports-video-analysis-t7jiq/model/1" class="experience-link" target="_blank">Click here to try out our model</a>',
         unsafe_allow_html=True
     )
 
@@ -42,3 +42,6 @@ def show():
     st.image("qr.jpeg", caption="Experience Our Model", width=400)
 
     st.markdown('</div>', unsafe_allow_html=True)
+
+if __name__ == "__main__":
+    show()
