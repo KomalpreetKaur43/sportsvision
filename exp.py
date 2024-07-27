@@ -30,7 +30,7 @@ def show():
 
     # Page Title
     st.markdown('<div class="experience-container">', unsafe_allow_html=True)
-    st.markdown('<div class="experience-title"><h2>Experience the Magic</h2></div>', unsafe_allow_html=True)
+    st.markdown('<div class="experience-title"><h2>EXPERIENCE THE MAGIC!!!!</h2></div>', unsafe_allow_html=True)
     
     # Link to the website
     st.markdown(
@@ -39,7 +39,7 @@ def show():
     )
 
     # Display the image with a specified width
-    st.image("qr.jpeg", caption="Experience Our Model", width=200)
+    st.image("roboflowqr.jpeg", caption="Experience Our Model", width=200)
 
     st.markdown('</div>', unsafe_allow_html=True)
 
