@@ -42,7 +42,7 @@ def show():
     st.markdown("""
     <div class="video-container" style="text-align: center;">
         <video width="80%" height="auto" controls loop>
-            <source src="output.mp4" type="video/mp4">
+            <source src="/path/to/your/output.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
