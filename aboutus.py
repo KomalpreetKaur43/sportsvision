@@ -5,7 +5,6 @@ def show():
     """
     <style>
     .aboutus-container {
-        background-color: black;
         padding: 20px;
         border-radius: 10px;
         align-items: center;
