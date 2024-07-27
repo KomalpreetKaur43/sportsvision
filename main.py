@@ -12,7 +12,7 @@ def main():
         "Contact Us": "contact",
         "Privacy Policy": "privacy",
         "Terms of Service": "terms",
-        "Experience":"exp",
+        "Experience it!!":"exp",
     }
 
     # Page selection
