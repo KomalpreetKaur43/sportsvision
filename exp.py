@@ -5,13 +5,10 @@ def show():
         """
         <style>
         .experience-container {
-            background-color: black;
-            padding: 20px;
             border-radius: 10px;
             text-align: center;
         }
         .experience-title {
-            color: white;
             font-size: 40px;
             margin-bottom: 20px;
         }
