@@ -39,7 +39,7 @@ def show():
     )
 
     # Display the image with a specified width
-    st.image("qr.jpeg", caption="Experience Our Model", width=400)
+    st.image("qr.jpeg", caption="Experience Our Model", width=200)
 
     st.markdown('</div>', unsafe_allow_html=True)
 
