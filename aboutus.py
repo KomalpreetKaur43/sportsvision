@@ -19,6 +19,7 @@ def show():
         font-size: 40px; /* Increased font size */
         font-weight: bold;
         align-items: center;
+        color:white;
     }
     </style>
     """,
