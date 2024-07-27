@@ -18,7 +18,6 @@ def show():
             text-decoration: none;
         }
         .experience-link:hover {
-            text-decoration: underline;
         }
         </style>
         """,
