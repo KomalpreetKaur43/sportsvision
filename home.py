@@ -56,15 +56,22 @@ def show():
     # Action Heading
     st.markdown('<div class="action-heading">See how we bring the action to life below!</div>', unsafe_allow_html=True)
 
-    # Images in a grid layout
+    # Images in a grid layout with unique captions
     cols = st.columns(3)
     image_paths = ['referee.png', 'hoop.png', 'player.png', 'basketball.png', 'scorecard.png']
+    captions = [
+        'Referee in action',
+        'Basketball hoop',
+        'Player making a shot',
+        'Basketball close-up',
+        'Scorecard from the game'
+    ]
 
     for i in range(3):
         with cols[i]:
-            st.image(image_paths[i], caption='Image', use_column_width=True)
+            st.image(image_paths[i], caption=captions[i], use_column_width=True)
 
     cols = st.columns(2)
     for i in range(3, 5):
         with cols[i-3]:
-            st.image(image_paths[i], caption='Image', use_column_width=True)
+            st.image(image_paths[i], caption=captions[i], use_column_width=True)
