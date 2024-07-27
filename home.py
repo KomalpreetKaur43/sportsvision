@@ -52,10 +52,6 @@ def show():
         display: block;
         margin-top: 5px;
     }
-    .video-container {
-        text-align: center;
-        margin: 20px 0;
-    }
     </style>
     """, unsafe_allow_html=True)
 
@@ -63,15 +59,10 @@ def show():
     st.markdown('<div class="content">Welcome to SportsVision</div>', unsafe_allow_html=True)
     st.write("Enhance your athletic performance with our cutting-edge video analysis tools. Upload your sports videos and get detailed insights and metrics to take your game to the next level.")
 
-    # Centered Video with autoplay, loop, and muted
-    st.markdown("""
-    <div class="video-container">
-        <video width="80%" height="auto" autoplay loop muted>
-            <source src="output.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-    """, unsafe_allow_html=True)
+    # Centered Video
+    st.markdown('<div class="video-container">', unsafe_allow_html=True)
+    st.video('output.mp4')
+    st.markdown('</div>', unsafe_allow_html=True)
 
     # Key Benefits
     st.write("## Key Benefits")
