@@ -38,10 +38,15 @@ def show():
     st.markdown('<div class="content"><p class="large-text">Welcome to SportsVision</p></div>', unsafe_allow_html=True)
     st.write("Enhance your athletic performance with our cutting-edge video analysis tools. Upload your sports videos and get detailed insights and metrics to take your game to the next level.")
 
-    # Centered Video
-    st.markdown('<div class="video-container">', unsafe_allow_html=True)
-    st.video('output.mp4')
-    st.markdown('</div>', unsafe_allow_html=True)
+    # Centered Video with Looping
+    st.markdown("""
+    <div class="video-container" style="text-align: center;">
+        <video width="80%" height="auto" controls loop>
+            <source src="output.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    """, unsafe_allow_html=True)
 
     # Key Benefits
     st.write("## Key Benefits")
