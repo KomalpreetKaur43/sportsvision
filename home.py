@@ -48,6 +48,9 @@ def show():
     .caption {
         color: white; /* Change caption text color to white */
         font-size: 14px; /* Optional: Adjust caption font size */
+        text-align: center;
+        display: block;
+        margin-top: 5px;
     }
     </style>
     """, unsafe_allow_html=True)
@@ -87,9 +90,11 @@ def show():
 
     for i in range(3):
         with cols[i]:
-            st.markdown(f'<figure><img src="{image_paths[i]}" style="width:100%"><figcaption class="caption">{captions[i]}</figcaption></figure>', unsafe_allow_html=True)
+            st.image(image_paths[i], caption='', use_column_width=True)
+            st.markdown(f'<p class="caption">{captions[i]}</p>', unsafe_allow_html=True)
 
     cols = st.columns(2)
     for i in range(3, 5):
         with cols[i-3]:
-            st.markdown(f'<figure><img src="{image_paths[i]}" style="width:100%"><figcaption class="caption">{captions[i]}</figcaption></figure>', unsafe_allow_html=True)
+            st.image(image_paths[i], caption='', use_column_width=True)
+            st.markdown(f'<p class="caption">{captions[i]}</p>', unsafe_allow_html=True)
