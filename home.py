@@ -41,6 +41,8 @@ def show():
         color: white; /* Change text color if needed */
         text-align: center;
         margin: 30px 0;
+        padding: 20px; /* Add padding to make sure it is visible */
+        border: 2px solid white; /* Add a border to make sure it stands out */
     }
     .action-heading {
         font-size: 40px; /* Increase the font size here */
