@@ -34,7 +34,7 @@ def show():
     .content {
         font-size: 60px; /* Increase the font size here */
         font-weight: bold;
-        color: rgb(2, 8, 37); /* Change text color if needed */
+        color: white; /* Change text color if needed */
         text-align: center;
         margin: 30px 0;
     }
