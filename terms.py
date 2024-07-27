@@ -6,21 +6,18 @@ def show():
     """
     <style>
     #terms-of-service {
-        background-color: black;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
         padding: 20px;
     }
 
     #terms-of-service h2 {
         text-align: center;
-        color: white;
         font-size: 40px;
     }
 
     #terms-of-service p,
     #terms-of-service ol {
         line-height: 1.6;
-        color: white;
         margin: 0.5em 0;
         font-size: 20px;
     }
