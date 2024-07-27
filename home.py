@@ -7,52 +7,23 @@ def show():
         background-color: black; /* Set the background color of the entire page */
         color: white; /* Set default text color to white for better readability */
     }
-    .header {
-        background-color: rgb(2, 8, 37);
-        color: white;
-        padding: 20px 0;
-        position: relative;
-        z-index: 2;
-        text-align: center;
-    }
-    .header h1 {
-        font-size: 50px;
-        margin-top: 30px;
-    }
-    .header nav ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-    .header nav ul li {
-        display: inline;
-        margin-left: 20px;
-    }
-    .header nav ul li a {
-        color: white;
-        text-decoration: none;
-    }
-    .header nav ul li a:hover {
-        text-decoration: underline;
-    }
     .content {
         font-size: 60px; /* Increase the font size here */
         font-weight: bold;
-        color: white; /* Change text color if needed */
+        color: white; /* Ensure text color is white */
         text-align: center;
         margin: 30px 0;
         padding: 20px; /* Add padding to make sure it is visible */
-        border: 2px solid white; /* Add a border to make sure it stands out */
     }
     .action-heading {
         font-size: 40px; /* Increase the font size here */
         font-weight: bold;
-        color: white; /* Change text color if needed */
+        color: white; /* Ensure text color is white */
         text-align: center;
         margin: 20px 0;
     }
     .caption {
-        color: white; /* Change caption text color to white */
+        color: white; /* Ensure caption text color is white */
         font-size: 14px; /* Optional: Adjust caption font size */
         text-align: center;
         display: block;
