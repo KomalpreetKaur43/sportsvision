@@ -6,7 +6,6 @@ def show():
     <style>
         .contact {
             padding: 2em 0;
-            background-color: black;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             color: white;
             text-align: center;
