@@ -38,6 +38,13 @@ def show():
         text-align: center;
         margin: 30px 0;
     }
+    .action-heading {
+        font-size: 40px; /* Increase the font size here */
+        font-weight: bold;
+        color: white; /* Change text color if needed */
+        text-align: center;
+        margin: 20px 0;
+    }
     </style>
     """, unsafe_allow_html=True)
 
