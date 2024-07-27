@@ -13,7 +13,6 @@ def show():
             margin-bottom: 20px;
         }
         .experience-link {
-            color: #1E90FF;
             font-size: 20px;
             text-decoration: none;
         }
