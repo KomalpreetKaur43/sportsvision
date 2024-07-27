@@ -3,6 +3,10 @@ import streamlit as st
 def show():
     st.markdown("""
     <style>
+    body {
+        background-color: black; /* Set the background color of the entire page */
+        color: white; /* Set default text color to white for better readability */
+    }
     .header {
         background-color: rgb(2, 8, 37);
         color: white;
@@ -51,6 +55,10 @@ def show():
         text-align: center;
         display: block;
         margin-top: 5px;
+    }
+    .video-container {
+        text-align: center;
+        margin: 20px 0;
     }
     </style>
     """, unsafe_allow_html=True)
