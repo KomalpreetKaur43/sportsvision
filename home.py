@@ -38,7 +38,7 @@ def show():
     st.markdown('<div class="content"><p class="large-text">Welcome to SportsVision</p></div>', unsafe_allow_html=True)
     st.write("Enhance your athletic performance with our cutting-edge video analysis tools. Upload your sports videos and get detailed insights and metrics to take your game to the next level.")
 
-    # Centered Video with Looping
+    # Centered Video with HTML
     st.markdown("""
     <div class="video-container" style="text-align: center;">
         <video width="80%" height="auto" controls loop>
